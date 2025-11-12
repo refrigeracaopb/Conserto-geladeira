@@ -901,3 +901,57 @@ img,video {
         padding-right: 2rem
     }
 }
+
+/* ==== Tags de Problemas (Refrigeração JP) ==== */
+.problemas-geladeira {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.problemas-geladeira span {
+  background: linear-gradient(90deg, #2563eb, #06b6d4); /* Azul → Ciano */
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 9999px; /* total */
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 150, 255, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  user-select: none;
+}
+
+.problemas-geladeira span:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 14px rgba(0, 150, 255, 0.4);
+  cursor: default;
+}
+
+/* ==== Tags de Problemas (Máquina de Lavar) ==== */
+.problemas-maquina {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.problemas-maquina span {
+  background: linear-gradient(90deg, #06b6d4, #2563eb); /* Ciano → Azul */
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 150, 255, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  user-select: none;
+}
+
+.problemas-maquina span:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 14px rgba(0, 150, 255, 0.4);
+  cursor: default;
+}
